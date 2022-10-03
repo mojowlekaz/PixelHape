@@ -1,0 +1,242 @@
+.container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  
+}
+.Home{
+  margin-top: 100px;
+  float: right;
+}
+.padding2{
+  padding-left: 80px;
+  margin-top: 60px;
+}
+
+button{
+  background-image: url(/Users/user/pixelhape/src/assets/Rectangle.png);
+  border-color: rgb(201, 201, 28);
+  border-radius: 15px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 30px;
+
+}
+.body{
+  background-image: url(/Users/user/pixelhape/src/assets/Rectangle.png);
+
+
+}
+
+.page2{
+  background-image: url(/Users/user/pixelhape/src/assets/Rectangle.png);
+  height: 100vh;
+  width: 100%;
+}
+.page3{
+  background-image: url(/Users/user/pixelhape/src/assets/background.png);
+  height: 100vh;
+  width: 100%;
+}
+.page4{
+  background-image: url(/Users/user/pixelhape/src/assets/Rectangle.png);
+  height: 100vh;
+  width: 100%;
+}
+.box{
+  width: 320px;
+  height: 500px;
+  border: solid green;
+  border-radius: 20px;
+  border-color:rgb(213, 216, 11);
+  box-sizing: border-box;
+  float: right;
+  margin-right: 200px;
+  margin-top: 20px;
+  background-color: rgb(9, 60, 9);
+}
+.box2{
+  width: 360px;
+  height: 300px;
+  border: solid green;
+  border-radius: 20px;
+  border-color:rgb(213, 216, 11);
+  box-sizing: border-box;
+  background-color: rgb(14, 90, 14);
+  margin-right: 70px;
+  margin-top: 20px;
+  float: right;
+  /* justify-content: center;
+  align-items: center;
+  display: flex; */
+ 
+}
+.box3{
+  width: 380px;
+  height: 350px;
+  border: solid green;
+  border-radius: 20px;
+  border-color:rgb(213, 216, 11);
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  background-color: rgb(14, 90, 14);
+  float: left;
+}
+.box6{
+  width: 100%;
+  height: 250%;
+
+}
+
+.box1{
+  width: 320px;
+  height: 350px;
+  border: solid green;
+  border-radius: 20px;
+  border-color:rgb(213, 216, 11);
+  box-sizing: border-box;
+  float: right;
+  margin-left: 600px;
+  margin-bottom: 40px;
+}
+.move{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+p{
+  font-size: 16px;
+  color: #fff;
+
+} 
+.this{
+   display: flex;
+   flex:1;
+  flex-direction: column;
+  margin-top: -20%;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+ 
+  color: #fff;
+}
+
+.connect-wth{
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.head{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.head1{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+}
+.head2{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+}
+.hpad{
+  margin-top: 100px;
+  padding-left: 50px;
+}
+.square {
+  width: 80%;
+  height: 400px;
+  background: rgb(5, 47, 5);
+  border-radius: 10px;
+}
+h1{
+  color: rgb(127, 127, 18);
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  background-color: rgb(32, 89, 32);
+  color: white;
+  /* line-height: 30px;  */
+  /* position: fixed; */
+  
+  }
+
+
+  nav a{
+    margin: 0 2rem;
+    color: white;
+    text-decoration: none;
+    
+  
+  }
+  nav a:hover{
+    color: red;
+  }
+  
+  header .nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border:none;
+    outline: none;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 1124px){
+    header .nav-btn{
+      visibility: visible;
+      opacity:1;
+  
+      }
+  
+      header nav{
+        position: fixed;
+        top: 0;
+        left:0;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(9, 60, 9);
+        transition: 1s;
+        transform: translateY(-100vh);
+      }
+      header .responsive_nav{
+        transform: none;
+  
+      }
+    }
+*{
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  }
