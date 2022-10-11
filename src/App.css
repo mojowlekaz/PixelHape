@@ -2,6 +2,7 @@
   height: 100%;
   width: 100%;
   display: flex;
+  color: #fff;
   
 }
 .Home{
@@ -35,16 +36,19 @@ button{
   background-image: url(/Users/user/pixelhape/src/assets/Rectangle.png);
   height: 100vh;
   width: 100%;
+    color: #fff;
 }
 .page3{
   background-image: url(/Users/user/pixelhape/src/assets/background.png);
   height: 100vh;
   width: 100%;
+  color: #fff;
 }
 .page4{
   background-image: url(/Users/user/pixelhape/src/assets/Rectangle.png);
   height: 100vh;
   width: 100%;
+  color: #fff;
 }
 .box{
   width: 320px;
