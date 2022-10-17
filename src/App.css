@@ -5,7 +5,7 @@
   color: #fff;
   
 }
-.Home{
+.Home1{
   margin-top: 100px;
   float: right;
 }
@@ -94,10 +94,20 @@ button{
   height: 250%;
 
 }
+/* .Box{
+  width: 380px;
+  height: 350px;
+  border: solid green;
+  border-radius: 20px;
+  border-color:rgb(213, 216, 11);
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  background-color: rgb(14, 90, 14);
+} */
 
 .box1{
   width: 320px;
-  height: 350px;
+  height: 310px;
   border: solid green;
   border-radius: 20px;
   border-color:rgb(213, 216, 11);
@@ -105,6 +115,7 @@ button{
   float: right;
   margin-left: 600px;
   margin-bottom: 40px;
+
 }
 .move{
   justify-content: center;
@@ -181,7 +192,7 @@ header{
   align-items: center;
   justify-content: space-between;
   height: 60px;
-  background-color: rgb(32, 89, 32);
+  background-color: rgb(4, 38, 4);
   color: white;
   /* line-height: 30px;  */
   /* position: fixed; */

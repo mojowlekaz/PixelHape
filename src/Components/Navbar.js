@@ -10,7 +10,7 @@ function Navbar(){
     }
     return(
         <header>
-         <img className="image-nav" src={require('/Users/user/pixelhape/src/assets/Layer 1.png')} />
+         <img style={{}} className="image-nav" src={require('/Users/user/pixelhape/src/assets/Layer 1.png')} />
          <nav ref={navRef}> 
          <a className="Home" href="/Home">Home</a>
          <a href="/Mint" className='Mint'>Mint</a>

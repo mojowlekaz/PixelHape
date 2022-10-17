@@ -17,7 +17,7 @@ const Home2 = () => {
       
       <div className="box"> 
   <div className="box1">
-  <img style={{width: '80%', justifyContent: 'center', alignItems: 'center', position: 'relative'}} className="f"src={require('/Users/user/pixelhape/src/assets/small baby.png')} />
+  <img style={{width: '80%', paddingLeft: '10%', justifyContent: 'center', alignItems: 'center', position: 'flex'}} className="f"src={require('/Users/user/pixelhape/src/assets/small baby.png')} />
 
 </div>
 
